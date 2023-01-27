@@ -88,14 +88,15 @@ public class week3and4ArraysandMethods {
 						System.out.println("8: " + fullName);
 		
 		//9.			
+						int[]ages1 = {3, 9, 23, 64, 2, 8, 28, 93, 47};
 						System.out.print("9: ");
-						System.out.println(array100(ages));
+						System.out.println(array100(ages1));
 		
 		//10. 
-							double[]ages1 = {3, 9, 23, 64, 2, 8, 28, 93, 47};
+							double[]ages2 = {3, 9, 23, 64, 2, 8, 28, 93, 47};
 										
 							System.out.print("10: ");
-							System.out.println(calcAverage(ages1));
+							System.out.println(calcAverage(ages2));
 		
 		//11. 	
 									
@@ -159,9 +160,9 @@ public class week3and4ArraysandMethods {
 		
 		
 			 
-			public static boolean array100 (double[] ages)
+			public static boolean array100 (int[] ages)
 			{
-				double sum = 0 ;
+				int sum = 0 ;
 				for (int i = 0; i < ages.length; i++) {
 					sum += ages[i];
 				}
