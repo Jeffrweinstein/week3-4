@@ -6,18 +6,18 @@ public class week3and4ArraysandMethods {
 
 	public static void main(String[] args) {
 	
-		//	double[]ages = {3, 9, 23, 64, 2, 8, 28, 93};
+			double[]ages = {3, 9, 23, 64, 2, 8, 28, 93};
 
 
-		//1a.	Programmatically subtract the value of the first element in the array from the value in the last element of the array
-		//System.out.print("1a: ");
-     //   System.out.println(ages[ages.length - 1] - ages[0]);
+	//	1a.	Programmatically subtract the value of the first element in the array from the value in the last element of the array
+		System.out.print("1a: ");
+       System.out.println(ages[ages.length - 1] - ages[0]);
         
         //1b.     Add a new age to your array and repeat the step above to ensure it is dynamic (works for arrays of different lengths).
 
-			double[]ages = {3, 9, 23, 64, 2, 8, 28, 93, 47};
-			System.out.print("1b: ");
-			System.out.println(ages[ages.length - 1] - ages[0]);
+		//	double[]ages = {3, 9, 23, 64, 2, 8, 28, 93, 47};
+		//	System.out.print("1b: ");
+		//	System.out.println(ages[ages.length - 1] - ages[0]);
 		//1c.	Use a loop to iterate through the array and calculate the average age. Print the result to the console.
 		
 		double sum = 0;
@@ -108,7 +108,7 @@ public class week3and4ArraysandMethods {
 						
 		//12.					
 							boolean isHotOutside = true;
-							double moneyInPocket = 12.00;
+							double moneyInPocket = 10.00;
 							
 							System.out.print("12: ");
 							System.out.println(willBuyDrink(isHotOutside, moneyInPocket));
